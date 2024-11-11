@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+}
+
+.button {
+    background-color: gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 3em;
+}
+
+.auth-section {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.product-grid {
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.stock {
+    font-weight: bold;
+    color: gold;
+}
